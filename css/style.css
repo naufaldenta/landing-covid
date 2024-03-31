@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+}
+
+.container {
+    padding: 25px 60px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.links a {
+    padding: 12px 25px;
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.donate {
+    background-color: #3DB5E2;
+    border-radius: 25px;
+
+}
+
+.links .donate {
+    color: white;
+}
+
+.links a:hover {
+    color: #3DB5E2;
+}
+
+.donate:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.container2 {
+    background-color: #E1F7FF;
+    padding: 120px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.container2 .judul {
+    color: #3274CC;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container2 .title {
+    width: 579px;
+    height: 144px;
+
+}
+
+.content-container2 {
+    width: 500px;
+    height: 81px;
+    color: #3274CC;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.tombol {
+    margin-top: 30px;
+}
+
+.tombol a {
+    margin: 20px 7px;
+    padding: 12px 60px;
+    border-radius: 25px;
+    text-decoration: none;
+
+}
+
+.learn {
+    background-color: #3274CC;
+    color: white;
+    border: solid 2px #3274CC;
+}
+
+.learn:hover {
+    background-color: transparent;
+    border: solid 2px #3274CC;
+    color: #3274CC;
+    transition: 0.6s;
+}
+
+.contact {
+    border: solid 2px #3274CC;
+    color: #3274CC;
+}
+
+.contact:hover {
+    background-color: #3274CC;
+    color: white;
+    transition: 0.6s;
+}
+
+.main {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.judul2 {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.tri {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.tri-content {
+    width: 239px;
+    height: 254px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 8px 0px #00000040;
+    padding: 70px 16px;
+    margin: 16px;
+
+}
+
+.tri-content h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1080px) {
+    * {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 955px) {
+    .house {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 868px) {
+    .tri {
+        display: grid;
+        justify-content: center;
+        margin: 0 25%;
+    }
+}
+
+@media screen and (max-width: 656px) {
+    .links {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 546px) {
+    .tombol a {
+        padding: 12px 50px;
+    }
+
+    .tri-content {
+        width: 167px;
+        height: 177px;
+        font-size: 12px;
+    }
+
+    .judul2 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 509px) {
+    .tombol a {
+        padding: 12px 40px;
+    }
+}
+
+@media screen and (max-width: 467px) {
+    .tombol a {
+        padding: 12px 30px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .tombol {
+        margin-top: 5em;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .tombol a {
+        padding: 12px 20px;
+    }
+}
+
+@media screen and (max-width: 386px) {
+    .tombol a {
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width: 364px) {
+    .judul {
+        font-size: 1.6em;
+    }
+
+    .content-container2 {
+        font-size: 0.8em;
+    }
+
+    .tombol a {
+        padding: 10px 10px;
+    }
+
+    .tombol a {
+        margin: 0;
+    }
+}
